@@ -18,7 +18,7 @@ const Project = () => {
       company: 'System Group',
       side: 'Senior Frontend Software Engineer',
       startDate: 'Apr 2021',
-      endDate: 'Nov 2024',
+      endDate: 'current',
       isPrivate: true,
       description:
         'Contributed to the development of a design system library, 8 common libraries, and a microfrontend architecture. Led a team of 5 frontend engineers to redesign the inventory module in an ERP system serving over 80,000 customers. Implemented a Playwright Fluent API wrapper to streamline testing. The project included several sections: the App section, which encompassed ERP module apps like Sales, Inventory, and others; the Common Services section, which provided shared functionality across modules; and the Design System Library, which included building block components.',

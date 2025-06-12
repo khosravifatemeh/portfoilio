@@ -4,6 +4,7 @@ import WorkIcon from '@mui/icons-material/Work';
 import { Box, Button, Collapse, Typography } from '@mui/material';
 import { useState } from 'react';
 import { sortedListByDate } from '../utils/date';
+import { getPublicPath } from '../utils/path';
 
 interface ExperienceItemProps {
   title: string;
@@ -47,7 +48,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
       >
         <Box
           component="img"
-          src={companyLogo || '/experiences/nophoto.png'}
+          src={getPublicPath(companyLogo || '/experiences/nophoto.png')}
           alt={`${company} logo`}
           sx={{
             width: 48,
@@ -97,7 +98,7 @@ const Experience = () => {
       location: 'Tehran',
       employmentType: 'Full-time',
       startDate: 'Apr 2021',
-      endDate: 'Nov 2024',
+      endDate: 'current',
       techStack: [
         'TypeScript',
         'JavaScript',

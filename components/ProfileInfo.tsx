@@ -1,6 +1,7 @@
 import { Email, GitHub, LinkedIn } from '@mui/icons-material';
 import { Box, Typography } from '@mui/material';
 import Link from 'next/link';
+import { getPublicPath } from '../utils/path';
 
 const ProfileInfo = () => {
   return (
@@ -70,7 +71,7 @@ const ProfileInfo = () => {
         >
           <Box
             component="img"
-            src="/profile-info/medium.svg"
+            src={getPublicPath('/profile-info/medium.svg')}
             alt="Medium"
             sx={{ marginRight: 1, width: 24, height: 24 }}
           />
@@ -86,7 +87,7 @@ const ProfileInfo = () => {
         >
           <Box
             component="img"
-            src="/profile-info/skype.svg"
+            src={getPublicPath('/profile-info/skype.svg')}
             alt="Skype"
             sx={{ marginRight: 1, width: 24, height: 24 }}
           />

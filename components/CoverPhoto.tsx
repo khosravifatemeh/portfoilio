@@ -1,4 +1,5 @@
 import { Avatar, Box, Paper } from '@mui/material';
+import { getPublicPath } from '../utils/path';
 
 const CoverPhoto = () => {
   return (
@@ -9,7 +10,7 @@ const CoverPhoto = () => {
         sx={{
           width: '100%',
           height: '200px',
-          backgroundImage: 'url(/cover-photo/cover2.png)',
+          backgroundImage: `url(${getPublicPath('/cover-photo/cover2.png')})`,
           backgroundSize: 'contain',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
@@ -17,7 +18,7 @@ const CoverPhoto = () => {
         }}
       />
       <Avatar
-        src="/cover-photo/avatar.jpg"
+        src={getPublicPath('/cover-photo/avatar.jpg')}
         sx={{
           width: '20%',
           minWidth: '100px',

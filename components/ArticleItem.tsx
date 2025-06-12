@@ -8,6 +8,7 @@ import {
   useMediaQuery,
   useTheme,
 } from '@mui/material';
+import { getPublicPath } from '../utils/path';
 
 interface ArticleItemProps {
   title: string;
@@ -59,7 +60,7 @@ const ArticleItem: React.FC<ArticleItemProps> = ({
         </Box>
         <CardMedia
           component="img"
-          image={imageUrl}
+          image={getPublicPath(imageUrl)}
           alt="Article image"
           sx={{
             width: isMobile ? '112px' : '200px',

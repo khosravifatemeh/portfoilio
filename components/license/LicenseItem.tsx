@@ -8,6 +8,7 @@ import {
   useMediaQuery,
   useTheme,
 } from '@mui/material';
+import { getPublicPath } from '../../utils/path';
 
 interface LicenseItemProps {
   thumbnail: string;
@@ -42,7 +43,7 @@ const LicenseItem: React.FC<LicenseItemProps> = ({
       >
         <CardMedia
           component="img"
-          image={thumbnail}
+          image={getPublicPath(thumbnail)}
           alt="License thumbnail"
           sx={{
             width: isMobile ? '48px' : '100px',

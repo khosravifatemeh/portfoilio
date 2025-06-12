@@ -3,6 +3,7 @@ import { useState } from 'react';
 import SchoolIcon from '@mui/icons-material/School';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
+import { getPublicPath } from '../utils/path';
 
 interface EducationItemProps {
   level: string;
@@ -42,7 +43,7 @@ const EducationItem: React.FC<EducationItemProps> = ({
       >
         <Box
           component="img"
-          src={universityLogo || '/education/nophoto.png'}
+          src={getPublicPath(universityLogo || '/education/nophoto.png')}
           alt={`${university} logo`}
           sx={{
             width: 48,

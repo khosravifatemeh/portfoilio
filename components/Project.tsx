@@ -49,7 +49,7 @@ const Project = () => {
       isPrivate: true,
       description:
         'Developed a collaborative whiteboard from scratch, featuring various shapes, text, responsive design, and a range of colors, brushes, and pens with adjustable depths. Enhanced performance by batching point sends and receives, optimizing responsiveness while ensuring an appealing UI and seamless user experience. Collaborated closely with the design, backend, and product teams to implement forward-thinking solutions.',
-      images: ['/whiteboard/1.png'],
+      images: ['whiteboard/1.png'],
       skills: ['JavaScript', 'Vue', 'Paper.js', 'SCSS', 'HTML', 'Git'],
     },
     {
@@ -62,10 +62,10 @@ const Project = () => {
       description:
         'Developed an online course platform for educators and lecturers, enabling course presentation, checkout, class interactions, and video conferencing. Optimized SEO strategies to improve visibility. Maintained the original version built with React, and later redesigned the platform using Vue and Nuxt.js with Test-Driven Development (TDD) practices. Implemented a CI/CD pipeline using GitLab and Docker to automate testing, enforce linting rules, and streamline deployment for smooth and efficient delivery.',
       images: [
-        '/railive/1.png',
-        '/railive/2.png',
-        '/railive/3.png',
-        '/railive/4.png',
+        'railive/1.png',
+        'railive/2.png',
+        'railive/3.png',
+        'railive/4.png',
       ],
       skills: [
         'JavaScript',
@@ -114,10 +114,10 @@ const Project = () => {
       description:
         'Developed a video platform for kids from scratch, collaborating closely with the founder to discuss each design and strategy for well-informed solutions. Optimized performance and SEO to enhance visibility and speed. Redesigned UI elements to improve the overall user experience. Applied cross-browser standards to ensure a consistent view across different devices and browsers, with a special focus on TV compatibility.',
       images: [
-        '/ninicartoon/1.png',
-        '/ninicartoon/2.png',
-        '/ninicartoon/3.png',
-        '/ninicartoon/4.png',
+        'ninicartoon/1.png',
+        'ninicartoon/2.png',
+        'ninicartoon/3.png',
+        'ninicartoon/4.png',
       ],
       skills: [
         'JavaScript',
@@ -139,10 +139,10 @@ const Project = () => {
       description:
         'Developed the hotel section of the product, including listing with advanced filters, detail pages, checkout, and more, boosting performance by 96% and increasing web traffic by 30%. Ensured cross-device and cross-browser compatibility to deliver a seamless and consistent user experience.',
       images: [
-        '/iranroute/1.png',
-        '/iranroute/2.png',
-        '/iranroute/3.png',
-        '/iranroute/4.png',
+        'iranroute/1.png',
+        'iranroute/2.png',
+        'iranroute/3.png',
+        'iranroute/4.png',
       ],
       skills: [
         'JavaScript',
@@ -185,7 +185,7 @@ const Project = () => {
       endDate: 'May 2019',
       description:
         'Developed a location-based platform. Redesigned the product’s frontend with 60+ features for 250+ users using React, enhancing maintainability and reducing launch time by 50%. Collaborated with design, product, and backend teams, delivering a seamless and efficient user experience.',
-      images: ['/garaj/1.png', '/garaj/2.png', '/garaj/3.png', '/garaj/4.png'],
+      images: ['garaj/1.png', 'garaj/2.png', 'garaj/3.png', 'garaj/4.png'],
       skills: [
         'JavaScript',
         'JQuery',
@@ -206,12 +206,7 @@ const Project = () => {
       endDate: 'Dec 2018',
       description:
         'Developed a location-based beauty platform from scratch, enabling users to find nearby salons while showcasing beauty-related content. Redesigned the user interface to enhance user experience, boosting performance by 98% through Core Web Vitals optimization. Improved SEO to increase search visibility.',
-      images: [
-        '/dunzhe/1.png',
-        '/dunzhe/2.png',
-        '/dunzhe/3.png',
-        '/dunzhe/4.png',
-      ],
+      images: ['dunzhe/1.png', 'dunzhe/2.png', 'dunzhe/3.png', 'dunzhe/4.png'],
       skills: [
         'JavaScript',
         'JQuery',

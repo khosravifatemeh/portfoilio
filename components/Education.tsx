@@ -1,9 +1,8 @@
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import SchoolIcon from '@mui/icons-material/School';
 import { Box, Button, Collapse, Typography } from '@mui/material';
 import { useState } from 'react';
-import SchoolIcon from '@mui/icons-material/School';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import ExpandLessIcon from '@mui/icons-material/ExpandLess';
-import { getPublicPath } from '../utils/path';
 
 interface EducationItemProps {
   level: string;
@@ -43,7 +42,7 @@ const EducationItem: React.FC<EducationItemProps> = ({
       >
         <Box
           component="img"
-          src={getPublicPath(universityLogo || '/education/nophoto.png')}
+          src={universityLogo || 'education/nophoto.png'}
           alt={`${university} logo`}
           sx={{
             width: 48,
@@ -82,7 +81,7 @@ const Education = () => {
       major: 'Computer Software Engineering',
       university: 'Kashan University',
       universityUrl: 'https://www.linkedin.com/school/university-of-kashan/',
-      universityLogo: '/education/kashan.jpg',
+      universityLogo: 'education/kashan.jpg',
 
       startDate: 'Sep 2011',
       endDate: 'Jun 2014',

@@ -2,7 +2,6 @@ import LockIcon from '@mui/icons-material/Lock';
 import { Box, Card, CardMedia, Chip, Typography } from '@mui/material';
 import Modal from '@mui/material/Modal';
 import { useState } from 'react';
-import { getPublicPath } from '../utils/path';
 
 interface ProjectItemProps {
   title: string;
@@ -94,7 +93,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
                 <CardMedia
                   component="img"
                   height="140"
-                  image={getPublicPath(image)}
+                  image={image}
                   alt={`Project image ${index + 1}`}
                   onClick={() => handleOpen(image)}
                   sx={{ cursor: 'pointer' }}
@@ -126,7 +125,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
           >
             {selectedImage && (
               <img
-                src={getPublicPath(selectedImage)}
+                src={selectedImage}
                 alt="Selected project"
                 style={{ width: '100%' }}
               />

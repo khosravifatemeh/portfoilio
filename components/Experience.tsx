@@ -4,7 +4,6 @@ import WorkIcon from '@mui/icons-material/Work';
 import { Box, Button, Collapse, Typography } from '@mui/material';
 import { useState } from 'react';
 import { sortedListByDate } from '../utils/date';
-import { getPublicPath } from '../utils/path';
 
 interface ExperienceItemProps {
   title: string;
@@ -48,7 +47,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
       >
         <Box
           component="img"
-          src={getPublicPath(companyLogo || '/experiences/nophoto.png')}
+          src={companyLogo || '/experiences/nophoto.png'}
           alt={`${company} logo`}
           sx={{
             width: 48,
@@ -94,7 +93,7 @@ const Experience = () => {
       title: 'Senior Frontend Software Engineer',
       company: 'System Group',
       companyUrl: 'https://www.linkedin.com/company/hamkaransystem',
-      companyLogo: '/experiences/sg.jpg',
+      companyLogo: 'experiences/sg.jpg',
       location: 'Tehran',
       employmentType: 'Full-time',
       startDate: 'Apr 2021',
@@ -174,7 +173,7 @@ const Experience = () => {
     {
       title: 'Frontend Software Engineer',
       company: 'Pardazesh Negar Rashin',
-      companyLogo: '/experiences/pnr.jpg',
+      companyLogo: 'experiences/pnr.jpg',
       companyUrl: 'https://ir.linkedin.com/company/pardazesh-negar-rashin',
       location: 'Tehran',
       employmentType: 'Full-time',

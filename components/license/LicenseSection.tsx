@@ -14,7 +14,7 @@ const LicenseSection = () => {
 
   const licenses = [
     {
-      thumbnail: '/certificate/simple.svgz',
+      thumbnail: 'certificate/simple.svgz',
       title: 'Kubernetes',
       issuer: 'Simplilearn',
       issueDate: 'Dec 2024',
@@ -25,7 +25,7 @@ const LicenseSection = () => {
         'https://drive.google.com/file/d/1f9VTeil7FJ5bgbudYbz849bozPQty0TD/view?usp=sharing',
     },
     {
-      thumbnail: '/certificate/simple.svgz',
+      thumbnail: 'certificate/simple.svgz',
       title: 'Docker',
       issuer: 'Simplilearn',
       issueDate: 'Dec 2024',
@@ -43,7 +43,7 @@ const LicenseSection = () => {
     },
 
     {
-      thumbnail: '/certificate/udemy.svg',
+      thumbnail: 'certificate/udemy.svg',
       title: 'Python',
       issuer: 'Udemy',
       issueDate: 'Jan 2025',
@@ -54,7 +54,7 @@ const LicenseSection = () => {
         'https://drive.google.com/file/d/1ZFeR5TQrGf465kRWWvOnHEcnziahcCvX/view?usp=sharing',
     },
     {
-      thumbnail: '/certificate/udemy.svg',
+      thumbnail: 'certificate/udemy.svg',
       title: 'Backend REST API with Node JS',
       issuer: 'Udemy',
       issueDate: 'Jan 2025',

@@ -24,7 +24,7 @@ const articles = [
     publishedAt: 'Jan 18, 2025',
     description:
       'A Block Formatting Context (BFC) is a CSS concept that defines a region where block-level elements are laid out. Elements within a BFC do not interact with elements outside of it, which helps in managing layout issues like margin collapsing, containing floats, and preventing overlaps. To establish a BFC, you can use properties such as float, overflow, display, or position. For example, setting overflow: hidden; on a container creates a BFC, ensuring that floated elements are contained and preventing content from overlapping.',
-    imageUrl: '/articles/css.svg',
+    imageUrl: 'articles/css.svg',
     articleUrl:
       'https://medium.com/@uni.khosravi/unlocking-css-secrets-block-formatting-contexts-bfc-0bc2852c203d',
     tags: [
@@ -71,7 +71,7 @@ const articles = [
     publishedAt: 'Sep 2024',
     description:
       'Implemented an intelligent system for recognizing Iranian banknotes using computer vision techniques. The study introduced a method that efficiently classifies banknotes based on color and texture features. Color features were extracted using grayscale pixel averaging, while texture analysis was performed using Histogram of Oriented Gradients (HOG) and Gabor wavelets. The system achieved a recognition accuracy of up to 95.89%. The proposed techniques are also applicable to banknotes from other countries that can be distinguished by color and design.',
-    imageUrl: '/articles/civilica',
+    imageUrl: 'articles/civilica',
     articleUrl: 'https://civilica.com/doc/283081/',
     tags: ['Pattern Recognition', 'Image Processing'],
   },

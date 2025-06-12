@@ -25,15 +25,12 @@ jobs:
         env:
           NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
 
-      - name: Export static files
-        run: npm run export
-
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
 
       - name: Deploy
-        uses: khosravifatemeh/github-pages-deploy-action@releases/v4
+        uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
-          BRANCH: gh-pages
-          FOLDER: out
+          branch: gh-pages
+          folder: out
           clean: true

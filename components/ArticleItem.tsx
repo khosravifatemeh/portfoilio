@@ -1,18 +1,17 @@
 import {
   Box,
-  Typography,
   Card,
   CardMedia,
-  CardContent,
-  Link,
   Chip,
-  useTheme,
+  Link,
+  Typography,
   useMediaQuery,
+  useTheme,
 } from '@mui/material';
 
 interface ArticleItemProps {
   title: string;
-  publishedAt: string;
+  publishedAt?: string;
   description: string;
   imageUrl: string;
   articleUrl: string;
@@ -21,7 +20,6 @@ interface ArticleItemProps {
 
 const ArticleItem: React.FC<ArticleItemProps> = ({
   title,
-  publishedAt,
   description,
   imageUrl,
   articleUrl,

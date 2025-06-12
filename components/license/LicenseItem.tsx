@@ -1,15 +1,13 @@
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import {
   Box,
-  Typography,
-  Card,
+  Button,
   CardMedia,
   Chip,
-  Button,
-  Divider,
-  useTheme,
+  Typography,
   useMediaQuery,
+  useTheme,
 } from '@mui/material';
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 interface LicenseItemProps {
   thumbnail: string;

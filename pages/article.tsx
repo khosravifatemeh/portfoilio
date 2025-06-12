@@ -1,5 +1,5 @@
+import { Box } from '@mui/material';
 import Head from 'next/head';
-import { Box, Typography } from '@mui/material';
 import ArticleItem from '../components/ArticleItem';
 
 const articles = [

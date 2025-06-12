@@ -1,8 +1,7 @@
+import { ThemeProvider } from '@emotion/react';
+import { createTheme, CssBaseline } from '@mui/material';
 import { AppProps } from 'next/app';
 import Layout from '../components/layout/layout';
-import { createTheme, CssBaseline } from '@mui/material';
-import { ThemeProvider } from '@emotion/react';
-import CoverPhoto from '../components/CoverPhoto';
 const theme = createTheme({
   palette: {
     secondary: {

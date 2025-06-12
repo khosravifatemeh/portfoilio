@@ -1,7 +1,6 @@
-import { Email, GitHub, Telegram, X } from '@mui/icons-material';
+import { Email, GitHub, LinkedIn } from '@mui/icons-material';
 import { Box, Typography } from '@mui/material';
 import Link from 'next/link';
-import DescriptionIcon from '@mui/icons-material/Description';
 
 const ProfileInfo = () => {
   return (
@@ -91,6 +90,14 @@ const ProfileInfo = () => {
             alt="Skype"
             sx={{ marginRight: 1, width: 24, height: 24 }}
           />
+        </Link>
+        <Link
+          href="https://linkedin.com/in/monikakhosravi"
+          target="_blank"
+          color="inherit"
+          style={{ display: 'flex', alignItems: 'center', color: 'black' }}
+        >
+          <LinkedIn sx={{ marginRight: 1, color: 'black' }} />
         </Link>
       </Box>
     </Box>

@@ -1,7 +1,7 @@
-import { Box, Typography, Card, CardMedia, Chip, Divider } from '@mui/material';
-import { useState } from 'react';
 import LockIcon from '@mui/icons-material/Lock';
+import { Box, Card, CardMedia, Chip, Typography } from '@mui/material';
 import Modal from '@mui/material/Modal';
+import { useState } from 'react';
 
 interface ProjectItemProps {
   title: string;

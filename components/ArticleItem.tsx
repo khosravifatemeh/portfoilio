@@ -1,7 +1,6 @@
 import {
   Box,
   Card,
-  CardMedia,
   Chip,
   Link,
   Typography,
@@ -13,7 +12,7 @@ interface ArticleItemProps {
   title: string;
   publishedAt?: string;
   description: string;
-  imageUrl: string;
+  imageUrl?: string;
   articleUrl: string;
   tags: string[];
 }
@@ -21,12 +20,10 @@ interface ArticleItemProps {
 const ArticleItem: React.FC<ArticleItemProps> = ({
   title,
   description,
-  imageUrl,
   articleUrl,
   tags,
 }) => {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   return (
     <Link

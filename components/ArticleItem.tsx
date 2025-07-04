@@ -4,8 +4,6 @@ import {
   Chip,
   Link,
   Typography,
-  useMediaQuery,
-  useTheme,
 } from '@mui/material';
 
 interface ArticleItemProps {
@@ -23,7 +21,6 @@ const ArticleItem: React.FC<ArticleItemProps> = ({
   articleUrl,
   tags,
 }) => {
-  const theme = useTheme();
 
   return (
     <Link

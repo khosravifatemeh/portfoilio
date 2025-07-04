@@ -1,7 +1,7 @@
 import LockIcon from '@mui/icons-material/Lock';
 import { Box, Card, CardMedia, Chip, Typography } from '@mui/material';
 import Modal from '@mui/material/Modal';
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 interface ProjectItemProps {
   title: string;
@@ -84,7 +84,12 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
           {startDate} - {endDate}
         </Typography>
         <Typography variant="body1" sx={{ marginTop: 1 }}>
-          {description}
+        {description.split('\n').map((line, index) => (
+    <React.Fragment key={index}>
+      {line}
+      <br />
+    </React.Fragment>
+  ))}
         </Typography>
         {images.length !== 0 && (
           <Box sx={{ display: 'flex', overflowX: 'auto', marginTop: 2 }}>

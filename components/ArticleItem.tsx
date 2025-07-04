@@ -57,7 +57,7 @@ const ArticleItem: React.FC<ArticleItemProps> = ({
             ))}
           </Box>
         </Box>
-        <CardMedia
+        {/* <CardMedia
           component="img"
           image={imageUrl}
           alt="Article image"
@@ -68,7 +68,7 @@ const ArticleItem: React.FC<ArticleItemProps> = ({
             objectPosition: 'center',
             marginTop: 1,
           }}
-        />
+        /> */}
       </Card>
     </Link>
   );

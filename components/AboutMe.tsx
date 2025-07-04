@@ -23,25 +23,23 @@ const AboutMe = () => {
       </Box>
       <Collapse in={open}>
         <Typography variant="body1" sx={{ mb: 2, mt: 2 }}>
-          Master’s degree in Software Engineering with a thesis on implementing
-          an AI pattern recognition system and two published articles in AI.
-          Taught technical courses at 6 universities and institutes to over 600
-          students for 4 years. Over 7 years of experience as a frontend
-          software engineer. Contributed to 15+ projects, ranging from small to
-          large-scale systems serving 80,000 users. Collaborated with 7+
-          cross-functional teams. Experienced in DevOps and backend development.
-          Analyzed 80+ designs to ensure smooth technical integration and
-          consistent UI/UX patterns. Known for getting things done with strong
-          attention to quality. Currently learning to develop AI systems.
-          Experienced in building testing solutions for large-scale systems.
-          Strong background in performance optimization, achieving up to 98%
-          improvement. Embracing T-shaped learning.
+          Software Engineer with 11+ years of experience — including 7+ years in Frontend Engineering and 4 years teaching programming and technical courses. Holds a Master’s degree in Software Engineering. Skilled in building scalable, high-performance web applications across diverse environments, from startups to enterprise platforms serving 80,000+ users.
+
+Specialized in clean architecture and micro-frontend systems, with a strong focus on maintainability, performance, and robust testing practices such as unit and end-to-end testing. Known for applying UI/UX best practices to enhance user experience and consistency.
+
+Experienced in leading and mentoring developers, establishing coding standards, and collaborating with cross-functional teams to deliver forward-thinking solutions. Strong sense of ownership and commitment to quality.
+
+Proficient in React, Angular, TypeScript, Node.js, SQL, Docker, and CI/CD pipelines.
+
+AI enthusiast with academic experience in advanced AI topics. Master’s thesis involved developing a cancer detection system using AI-based techniques.
+
+Currently open to frontend opportunities in Europe or remote teams globally.
         </Typography>
         <Typography variant="body1" sx={{ mt: 2 }}>
           <Box component="span" sx={{ fontWeight: 'bold', mr: 1 }}>
             Top Skills:
           </Box>
-          JavaScript, TypeScript, Angular, React, Vue.
+          Angular • React • TypeScript • Node.js • Continuous Integration and Continuous Delivery (CI/CD)
         </Typography>
       </Collapse>
     </Box>

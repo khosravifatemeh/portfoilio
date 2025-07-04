@@ -31,9 +31,7 @@ const ProfileInfo = () => {
         </Link> */}
       </Box>
       <Typography variant="body1" gutterBottom>
-        Software Engineer | Senior Frontend Engineer | AI Enthusiast | 15+
-        successfull projects, including large-scale | Mentored 150+ engineers |
-        led workshops for 600+ | Led a team of frontend engineers
+        Senior Frontend Engineer | 11+ Years Experience | Teaching & Mentoring & Architecture
       </Typography>
       <Box
         sx={{

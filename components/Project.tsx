@@ -21,7 +21,7 @@ const Project = () => {
       endDate: 'current',
       isPrivate: true,
       description:
-        'Contributed to the development of a design system library, 8 common libraries, and a microfrontend architecture. Led a team of 5 frontend engineers to redesign the inventory module in an ERP system serving over 80,000 customers. Implemented a Playwright Fluent API wrapper to streamline testing. The project included several sections: the App section, which encompassed ERP module apps like Sales, Inventory, and others; the Common Services section, which provided shared functionality across modules; and the Design System Library, which included building block components.',
+        `The ERP product consists of 8 modules, each managed by a cross-functional team. The project includes several key sections: the App section, which contains ERP module apps like Sales, Inventory, and others; the Common Services and Components section, providing shared functionality across modules; and the Design System Library, which offers reusable building block components.\n- Contributed to the development of a Design System Library, eight common libraries, and a microfrontend architecture.\n- Redesigned the Inventory module in an ERP system serving over 80,000 customers and led a team of five frontend engineers.\n- Reviewed over 80 pull requests and established style guides to ensure consistency across the codebase.\n- Defined bug and feature standards to improve overall team productivity.\n- Developed a frontend roadmap to accelerate onboarding and productivity for new hires.\n- Implemented a Playwright Fluent API wrapper to streamline and enhance testing processes.`,
       images: [],
       skills: [
         'JavaScript',
@@ -48,7 +48,7 @@ const Project = () => {
       endDate: 'Aug 2020',
       isPrivate: true,
       description:
-        'Developed a collaborative whiteboard from scratch, featuring various shapes, text, responsive design, and a range of colors, brushes, and pens with adjustable depths. Enhanced performance by batching point sends and receives, optimizing responsiveness while ensuring an appealing UI and seamless user experience. Collaborated closely with the design, backend, and product teams to implement forward-thinking solutions.',
+        'A collaborative whiteboard.\n- Implementing various shapes, text, responsive design, and a range of colors, brushes, and pens with adjustable depths.\n - Enhanced performance by batching point sends and receives.\n- Optimized responsiveness while ensuring an appealing UI and seamless user experience. \n- Collaborated closely with the design, backend, and product teams to implement forward-thinking solutions.',
       images: ['whiteboard/1.png'],
       skills: ['JavaScript', 'Vue', 'Paper.js', 'SCSS', 'HTML', 'Git'],
     },
@@ -60,7 +60,8 @@ const Project = () => {
       isPrivate: true,
       endDate: 'Mar 2021',
       description:
-        'Developed an online course platform for educators and lecturers, enabling course presentation, checkout, class interactions, and video conferencing. Optimized SEO strategies to improve visibility. Maintained the original version built with React, and later redesigned the platform using Vue and Nuxt.js with Test-Driven Development (TDD) practices. Implemented a CI/CD pipeline using GitLab and Docker to automate testing, enforce linting rules, and streamline deployment for smooth and efficient delivery.',
+        `An online course platform for educators and lecturers, enabling course presentation, checkout, class interactions, and video conferencing.
+- Maintained the original React-based version of the platform.\n- Redesigned the platform using Vue and Nuxt.js, following Test-Driven Development (TDD) practices.\n- Implemented a CI/CD pipeline with GitLab and Docker to automate testing, enforce linting rules, and streamline deployment for efficient delivery.\n- Optimized SEO strategies to enhance search visibility.`,
       images: [
         'railive/1.png',
         'railive/2.png',
@@ -92,7 +93,7 @@ const Project = () => {
       isPrivate: true,
       endDate: 'Mar 2021',
       description:
-        'Developed a web application from scratch for a religious organization, establishing the initial structure and building key features.',
+        `A panel providing religious learning content.\n- Established the initial project structure, including the test section and app configuration for layout and libraries.\n- Developed several core components of the project.`,
       images: [],
       skills: [
         'JavaScript',
@@ -112,7 +113,7 @@ const Project = () => {
       endDate: 'Mar 2021',
       isPrivate: true,
       description:
-        'Developed a video platform for kids from scratch, collaborating closely with the founder to discuss each design and strategy for well-informed solutions. Optimized performance and SEO to enhance visibility and speed. Redesigned UI elements to improve the overall user experience. Applied cross-browser standards to ensure a consistent view across different devices and browsers, with a special focus on TV compatibility.',
+        `A video platform for kids.\n- Collaborated closely with the founder to discuss design and strategy for well-informed solutions.\n- Created the initial project structure.\n- Optimized performance and SEO to enhance visibility and speed.\n- Improved accessibility for a wider audience.\n- Redesigned UI elements to enhance the overall user experience.\n- Applied cross-browser standards to ensure consistent display across devices and browsers, with special focus on TV compatibility.`,
       images: [
         'ninicartoon/1.png',
         'ninicartoon/2.png',
@@ -137,7 +138,7 @@ const Project = () => {
       isPrivate: true,
       endDate: 'Jan 2020',
       description:
-        'Developed the hotel section of the product, including listing with advanced filters, detail pages, checkout, and more, boosting performance by 96% and increasing web traffic by 30%. Ensured cross-device and cross-browser compatibility to deliver a seamless and consistent user experience.',
+        `A platform offering hotel bookings, bus services, and additional travel-related services for tourists.\n- Developed the hotel section of the product, including listing with advanced filters, detail pages, and checkout.\n- Boosting performance by 96% and increasing web traffic by 30%.\n- Ensured cross-device and cross-browser compatibility to deliver a seamless and consistent user experience.`,
       images: [
         'iranroute/1.png',
         'iranroute/2.png',
@@ -163,15 +164,15 @@ const Project = () => {
       startDate: 'May 2019',
       isPrivate: true,
       endDate: 'Nov 2019',
-      description:
-        'Architected an e-commerce frontend application using React and TypeScript, following Clean Architecture, Domain-Driven Design (DDD), and MVVM principles. Each feature was developed with clear separation of concerns: the domain layer included business logic, domain entities, and repository interfaces; the data layer connected to data sources and handled repository implementations; and the app layer was organized into core, generic, and support modules based on DDD practices. The core module contained the feature implementations and was structured following the MVVM pattern. I also helped maintain the legacy backend codebase built with Node.js and Express.',
+      description:`An e-commerce product. Each feature was developed with clear separation of concerns: the domain layer included business logic, domain entities, and repository interfaces; the data layer connected to data sources and handled repository implementations; and the app layer was organized into core, generic, and support modules based on DDD practices. The core module contained the feature implementations and was structured following the MVVM pattern.\n- Contributed in architected frontend application using React and TypeScript, following Clean Architecture, Domain-Driven Design (DDD), and MVVM principles.\n- Helped maintain the legacy backend codebase built with Node.js and Express.
+`,
       images: [],
       skills: [
+        'React',
+        'TypeScript',
         'Clean Architecture',
         'Domain Driven Design',
         'MVVM',
-        'React',
-        'TypeScript',
         'Reactive Programming',
         'Functional Programming',
       ],
@@ -184,12 +185,11 @@ const Project = () => {
       isPrivate: false,
       endDate: 'May 2019',
       description:
-        'Developed a location-based platform. Redesigned the product’s frontend with 60+ features for 250+ users using React, enhancing maintainability and reducing launch time by 50%. Collaborated with design, product, and backend teams, delivering a seamless and efficient user experience.',
+        'A location-based car service.\n- Redesigned several components by translating designs into functional components to improve UI/UX.\n- Collaborated with design, product, and backend teams to deliver a seamless and efficient user experience.',
       images: ['garaj/1.png', 'garaj/2.png', 'garaj/3.png', 'garaj/4.png'],
       skills: [
         'JavaScript',
         'JQuery',
-        'React',
         'CSS',
         'HTML',
         'C#',
@@ -205,15 +205,15 @@ const Project = () => {
       isPrivate: false,
       endDate: 'Dec 2018',
       description:
-        'Developed a location-based beauty platform from scratch, enabling users to find nearby salons while showcasing beauty-related content. Redesigned the user interface to enhance user experience, boosting performance by 98% through Core Web Vitals optimization. Improved SEO to increase search visibility.',
+        'A location-based beauty platform, enabling users to find nearby salons while showcasing beauty-related content.\n- Developed the platform from scratch.\n- Redesigned the frontend with 60+ features for 250+ users using React, enhancing maintainability and user experience.\n- Boosted performance by 98% through Core Web Vitals optimization.\n- Improved SEO to increase search visibility.',
       images: ['dunzhe/1.png', 'dunzhe/2.png', 'dunzhe/3.png', 'dunzhe/4.png'],
       skills: [
+        'React',
         'JavaScript',
-        'JQuery',
         'CSS',
         'HTML',
-        'C#',
-        'ASP.NET MVC',
+      'Bootstrap',
+
         'Git',
       ],
     },

@@ -150,7 +150,9 @@ const Experience = () => {
       company: 'Freelance',
       location: 'Esfahan',
       employmentType: 'Full-time',
+      companyLogo:"experiences/fi.png",
       startDate: 'May 2019',
+      companyUrl:'https://www.linkedin.com/company/freelance-self-employed-official/',
       endDate: 'Jun 2020',
       techStack: [
         'React',
@@ -199,6 +201,8 @@ const Experience = () => {
       company: 'Various Universities',
       location: 'Shahrekord',
       employmentType: 'Full-time',
+      companyLogo:"experiences/uni.png",
+      companyUrl:'https://www.linkedin.com/school/shahrekord-university/',
       startDate: 'Jun 2013',
       endDate: 'Nov 2017',
       techStack: [],

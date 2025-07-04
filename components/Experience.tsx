@@ -47,7 +47,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
       >
         <Box
           component="img"
-          src={companyLogo || '/experiences/nophoto.png'}
+          src={companyLogo || 'experiences/nophoto.png'}
           alt={`${company} logo`}
           sx={{
             width: 48,

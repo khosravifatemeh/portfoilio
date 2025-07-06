@@ -10,7 +10,8 @@ const PostPage = () => {
 
   useEffect(() => {
     if (slug) {
-      fetch(`/post/${slug}.md`)
+          const path = `${router.basePath}/post/${slug}.md`;
+      fetch(path)
         .then((res) => res.text())
         .then(setContent);
     }

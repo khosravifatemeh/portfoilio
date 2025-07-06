@@ -22,6 +22,19 @@ const DesktopMenu = () => {
               Resume
             </Button>
           </Link>
+          <Link href="/post" passHref>
+            <Button
+              sx={{
+                color:
+                  router.pathname === '/post'
+                    ? 'primary.main'
+                    : 'text.secondary',
+              }}
+              startIcon={<ArticleIcon />}
+            >
+              Post
+            </Button>
+            </Link>
           <Link href="/article" passHref>
             <Button
               sx={{

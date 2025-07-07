@@ -1,5 +1,3 @@
-🧠 **React’s Internal `is` Function: Why It’s Not Just `===`**
-
 React internally uses a small function called `"is"` — a **polyfill** for JavaScript’s `Object.is()` — to compare values in hook dependencies.
 
 ```js

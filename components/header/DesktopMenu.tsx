@@ -26,7 +26,7 @@ const DesktopMenu = () => {
             <Button
               sx={{
                 color:
-                  router.pathname === '/post'
+                  router.pathname.startsWith('/post') 
                     ? 'primary.main'
                     : 'text.secondary',
               }}
